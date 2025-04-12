@@ -1,6 +1,7 @@
 JAVAC = javac
 JAVA = java
-SRC = *.java
+SRC_DIR = src
+SRC = $(wildcard $(SRC_DIR)/*.java)
 CLASS_DIR = build
 MAIN_CLASS = MinimalMusicPlayer
 
